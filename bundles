@@ -1,0 +1,78 @@
+" vim:ft=vim
+
+"
+" Environment Setup
+"
+
+" Turn off Vi compatibility and filetype plugin
+set nocompatible
+filetype off
+
+" Enable Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle update itself
+Bundle 'gmarik/vundle'
+
+"
+" Bundles
+"
+
+Bundle 'Raimondi/delimitMate'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'bling/vim-airline'
+Bundle 'editorconfig/editorconfig-vim'
+Bundle 'godlygeek/tabular'
+Bundle 'heavenshell/vim-jsdoc'
+Bundle 'junegunn/goyo.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'marijnh/tern_for_vim'
+Bundle 'mattn/emmet-vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'ndhoule/vim-ragtag'
+" TODO: Does this still need to be installed?
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'sheerun/vim-polyglot'
+Bundle 'tpope/vim-classpath'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/Rename'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'vim-scripts/bufexplorer.zip'
+Bundle 'vim-scripts/bufkill.vim'
+" TODO: Does this still need to be installed?
+Bundle 'vim-scripts/fakeclip'
+Bundle 'vim-scripts/guicolorscheme.vim'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'vim-scripts/scratch.vim'
+
+"
+" Snippets
+"
+
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
+
+"
+" Themes
+"
+
+" Note that you must install your terminal client's base16 color scripts for
+" base16 themes to look correct
+" https://github.com/search?q=user%3Achriskempson+base16
+Bundle 'chriskempson/base16-vim'
+
+"
+" Cleanup
+"
+
+" Turn plugins and indentation back on
+filetype plugin indent on
