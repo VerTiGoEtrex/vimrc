@@ -25,20 +25,20 @@ import ycm_core
 # CHANGE THIS LIST OF FLAGS. YES, THIS IS THE DROID YOU HAVE BEEN LOOKING FOR.
 flags = [
     '-Wall',
-    '-g'
-    '-O0'
+    '-g',
+    '-O0',
     # THIS IS IMPORTANT! Without a "-std=<something>" flag, clang won't know which
     # language to use when compiling headers. So it will guess. Badly. So C++
     # headers will be compiled as C headers. You don't want that so ALWAYS specify
     # a "-std=<something>".
     # For a C project, you would set this to something like 'c99' instead of
     # 'c++11'.
-    '-std=c99',
+    '-std=c++11',
     # ...and the same thing goes for the magic -x option which specifies the
     # language that the files to be compiled are written in. This is mostly
     # relevant for c++ headers.
     # For a C project, you would set this to 'c' instead of 'c++'.
-    '-x', 'c',
+    '-x', 'c++',
     '-isystem',
     '/usr/include',
     '-isystem',

@@ -16,7 +16,6 @@ set shiftwidth=2          " Auto-indent this many spaces
 set shiftround            " <Tab> inserts to the nearest multiple of `shiftwidth`
 set expandtab             " <Tab> inserts `tabstop` number of characters
 
-let &colorcolumn="80,120" " Show max width warning columns
-set textwidth=120          " Wrap long lines automatically
+let &colorcolumn="120" " Show max width warning columns
 
 set list listchars=tab:→\ ,trail:· " Highlight trailing spaces, tab chars

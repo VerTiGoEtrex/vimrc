@@ -1,5 +1,5 @@
-re 'etc'
-require 'FileUtils'
+require 'etc'
+require 'fileutils'
 
 HOME = Etc.getpwuid.dir
 VIM_PATH = File.join(HOME, '.vim')

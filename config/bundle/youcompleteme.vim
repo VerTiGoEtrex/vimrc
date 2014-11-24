@@ -3,6 +3,7 @@ let g:ycm_confirm_extra_conf=0
 set completeopt-=preview
 
 "let g:ycm_path_to_python_interpreter = '/Users/necrocke/.pyenv/shims/python'
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 " Set a path to a fallback YCM configuration file. When a project doesn't have
 " a local .ycm_extra_conf.py, YCM will use this file.
