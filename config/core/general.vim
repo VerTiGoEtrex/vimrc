@@ -16,3 +16,5 @@ set autowrite             " Autosave on make or shell commands
 set wildmenu              " Better buffer switching menu
 set wildmode=list:longest " Taller :e menu
 set autochdir             " Always change to the current file's directory
+
+set backspace=indent,eol,start
