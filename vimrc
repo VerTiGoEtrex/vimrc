@@ -10,6 +10,9 @@ if v:progname =~? "evim"
   finish
 endif
 
+" Fix YCM on mac
+let g:ycm_path_to_python_interpreter = "/usr/local/bin/python"
+
 "Change leader key from \ to ,
 let mapleader=","
 
